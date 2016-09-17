@@ -1,0 +1,35 @@
+{
+  "name": "password-manager",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "description": "Password Manager",
+  "main": "bin/www",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarongoa/password-manager.git"
+  },
+  "keywords": [
+    "password",
+    "manager",
+    "excryption",
+    "node",
+    "express"
+  ],
+  "author": "Aaron Colaco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aarongoa/password-manager/issues"
+  },
+  "homepage": "https://github.com/aarongoa/password-manager#readme"
+}
