@@ -28,7 +28,10 @@ router.get('/decrypt', function(req, res, next) {
 router.get('/:account', function(req, res, next) {
 	var accountName = req.params.account;
 
-	res.json(plaintextAccounts[accountName]);	// return plaintext details of account 
+	var decryptedAccounts = JSON.parse(plaintextAccounts());
+	console.log(decryptedAccounts['facebook']);
+
+	res.json(decryptedAccounts[accountName]);	// return plaintext details of account 
 });
 
 module.exports = router;

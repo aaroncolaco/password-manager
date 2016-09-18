@@ -1,15 +1,12 @@
-body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-
-  background-color: #2196F3;
-  min-height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 0%;
+html {
+	height: 100%;	/*So that the 100% divs are full height*/
 }
 
-a {
-  color: #00B7FF;
+body { 
+	height: 100%;	/*So that the 100% divs are full height*/
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+	background-color: #2196F3;
 }
 
 .footer {
